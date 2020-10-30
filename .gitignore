@@ -1,0 +1,14 @@
+/.release/*
+/backups/*
+/Gregar/debugging/*
+/Falzar/debugging/*
+*.exe
+*.dll
+*.gba
+*.sav
+*.sym
+*.nlz
+*.lnk
+*.png
+/indexes/
+/plugins/
