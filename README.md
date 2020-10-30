@@ -17,5 +17,4 @@ Supported reasons for a ModCard not being equipped:
 - (Low MB): The new ModCard would cause your total MB count to exceed the limit of 80 if it were equipped, so it was not equipped. Enter the ModCard menu and remove equipped ModCards until you have enough MB available to equip the new card. 
 
 ###### Reminders for Tournament Rules:
-If a certain ModCard has an ability that is banned in tournaments, it can be flagged to display an additional message whenever it's equipped that warns the user about the specific ability that is banned.
-
+If a certain ModCard has an ability that is banned in tournaments, it can be flagged to display an additional message whenever it's equipped, warning the user about the specific ability that is banned.
