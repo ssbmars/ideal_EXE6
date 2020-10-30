@@ -1,5 +1,5 @@
 ## Applying the patch
-[Download a release from this page](/ssbmars/ideal_EXE6_patch/releases).
+[Download a release from this page](/releases).
 Apply over a clean, unpatched copy of Rockman EXE6. It must be the Japanese version of the game, and it must not have any other patches applied.
 Attempting to patch over a dirty copy of the ROM will result in an error, so you will know whether you applied it successfully.
 
