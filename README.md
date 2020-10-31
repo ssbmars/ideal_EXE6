@@ -18,3 +18,9 @@ Supported reasons for a ModCard not being equipped:
 
 ###### Reminders for Tournament Rules:
 If a certain ModCard has an ability that is banned in tournaments, it can be flagged to display an additional message whenever it's equipped, warning the user about the specific ability that is banned.
+
+###### Mr.Famous Patch:
+This includes the functionality from the Mr.Famous patch.
+The Random Battle mode has been changed to play out as a Best of 3 set rather than a single battle.
+
+The Triple Battle mode has been changed to play out as a Best of 69 set rather than a Best of 3 set.
