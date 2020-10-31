@@ -1,6 +1,8 @@
 ## Applying the patch
 [Download a release from this page](https://github.com/ssbmars/ideal_EXE6_patch/releases).
+
 Apply over a clean, unpatched copy of Rockman EXE6. It must be the Japanese version of the game, and it must not have any other patches applied.
+
 Attempting to patch over a dirty copy of the ROM will result in an error, so you will know whether you applied it successfully.
 
 ## Patch Features
@@ -21,6 +23,7 @@ If a certain ModCard has an ability that is banned in tournaments, it can be fla
 
 ###### Mr.Famous Patch:
 This includes the functionality from the Mr.Famous patch.
+
 The Random Battle mode has been changed to play out as a Best of 3 set rather than a single battle.
 
 The Triple Battle mode has been changed to play out as a Best of 69 set rather than a Best of 3 set.
