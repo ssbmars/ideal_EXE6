@@ -6,10 +6,10 @@ playSoundConst1 equ 0x8164C8C
 memcopyCardNames equ 0x0815A2D8
 cardNameAddress	equ 0x0814357C
 // ---
-
-.open "Gregar\Taisen_GXX.gba", "Gregar\Taisen_GXX_full.gba", 0x08000000
-
 .gba
+.open "empty.gba", "Gregar\output_exe6g.gba", 0x08000000
+.import "Gregar\Taisen_GXX.gba", 0, 0x911A00
+
 
 .org 0x08072CA0
 .include "KaizouLoader.asm"

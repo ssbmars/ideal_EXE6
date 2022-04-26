@@ -6,10 +6,10 @@ playSoundConst1 equ 0x8163150
 memcopyCardNames equ 0x0815879C
 cardNameAddress	equ 0x081417B4
 // ---
-
-.open "Falzar\Taisen_RXX.gba", "Falzar\Taisen_RXX_full.gba", 0x08000000
-
 .gba
+.open "empty.gba", "Falzar\output_exe6f.gba", 0x08000000
+.import "Falzar\Taisen_RXX.gba", 0, 0x911A00
+
 
 .org 0x08071E00
 .include "KaizouLoader.asm"
