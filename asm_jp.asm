@@ -1,12 +1,12 @@
 
-
+/* */
 //Bo3 -> change to first to 69
 .org 0x0800B546
 	add		r4,89h
 
 .org 0x0800B554
 	cmp		r2,89h
-
+ 
 
 
 //Continue receiving randomized stages after the 3rd match

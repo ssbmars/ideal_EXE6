@@ -7,11 +7,11 @@ memcopyCardNames equ 0x0815879C
 cardNameAddress	equ 0x081417B4
 // ---
 
-.open "Falzar\Taisen_RXX.gba", "Falzar\Taisen_RXX_asm.gba", 0x08000000
+.open "Falzar\Taisen_RXX.gba", "Falzar\Taisen_RXX_full.gba", 0x08000000
 
 .gba
 
-.org 0x08071D90
+.org 0x08071E00
 .include "KaizouLoader.asm"
 
 //.org 0x08071DE0
@@ -26,7 +26,8 @@ cardNameAddress	equ 0x081417B4
 
 
 //Random Battle- use bo3 code
-.org 0x081341B9
-	.db	0x06
+//.org 0x081341B9
+//	.db	0x06
 
-.include "asm_jp.asm"		//applies JP version-agnostic changes and executes .close
+//.include "asm_jp.asm"		//applies JP version-agnostic changes and executes .close
+.close

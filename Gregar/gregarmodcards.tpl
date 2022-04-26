@@ -2,7 +2,7 @@
 @size 122
 
 script 2 mmbn6s {
-	"Mollusk"
+	"Ammncule"
 	end
 }
 script 4 mmbn6s {
