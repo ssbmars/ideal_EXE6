@@ -14,20 +14,9 @@ cardNameAddress	equ 0x081417B4
 .org 0x08071E00
 .include "KaizouLoader.asm"
 
-//.org 0x08071DE0
-//.include "RandomSong.asm"
-
-
 //revert translated title screen to EXE version
 .org 0x08030CC4 :: .dw 0x887F9AB0	//image address
 .org 0x08030CD0 :: .dw 0x087F98B0	//palette
 .org 0x08030D0C :: .dw 0x087FE5E0	//sprite repositioner
 
-
-
-//Random Battle- use bo3 code
-//.org 0x081341B9
-//	.db	0x06
-
-//.include "asm_jp.asm"		//applies JP version-agnostic changes and executes .close
 .close
