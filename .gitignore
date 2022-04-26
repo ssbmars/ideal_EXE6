@@ -12,3 +12,5 @@
 *.png
 /indexes/
 /plugins/
+*.bps
+*.zip
