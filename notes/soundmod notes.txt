@@ -1,0 +1,106 @@
+compiled rom data ends at 0x089123F0
+
+maybe start injecting songs at 0x08913000
+
+
+list of songs to port (afaik)
+
+BN1
+8	internet
+14	normal battle
+15	boss battle
+16	final boss
+
+BN2
+24	internet
+27	normal battle
+28	boss battle
+29	final boss
+
+EXE3
+22	internet
+25	normal battle
+26	boss battle
+27	final boss
+28	grand prix match
+
+BN4
+18	internet
+20	normal battle
+21	boss battle
+22	final boss
+23	tournament match
+	toyrobo theme
+
+EXE4.5
+64	internet
+89	tournament match
+98	normal battle
+99	boss battle
+
+BN5
+19	internet
+21	normal battle
+22	boss battle
+23	final boss
+
+
+
+
+
+BCC
+
+
+015F828		08160BAC
+0
+015F870
+015F8A0
+
+0x015F8DC	5
+
+015F93C
+
+
+160BBC
+16E698
+1692DC
+1737D4
+16C064
+175ADC
+178458
+17A668
+164194
+17DB08
+17F044
+180BC4
+181290
+182884
+186A60
+1B7F80
+
+
+6  =  16
+E
+
+120
+12
+
+
+0x95F8DC
+
+0x960BBC
+0x96E698
+0x9692DC
+0x9737D4
+0x96C064
+0x975ADC
+0x978458
+0x97A668
+0x964194
+0x97DB08
+0x97F044
+0x980BC4
+0x981290
+0x982884
+0x986A60
+0x9B7F80
