@@ -108,9 +108,9 @@ kaizouLoaderXtra:
 	//check if the ID is of a card with a banned CS
 	mov		r5,0h
 	//check invis CS
-	cmp		r1,8h
+	cmp		r1,8
 	beq		@@warnInvis
-	cmp		r1,65h
+	cmp		r1,65
 	beq		@@warnInvis
 	b		@@checkStatusCS
 	@@warnInvis:
