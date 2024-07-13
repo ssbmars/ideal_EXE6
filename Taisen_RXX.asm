@@ -14,6 +14,10 @@ cardNameAddress	equ 0x081417B4
 .org 0x08071E00
 .include "KaizouLoader.asm"
 
+//change MB limit to 120
+.org 0x0814188A
+	cmp		r0,120
+
 //revert translated title screen to EXE version
 .org 0x08030CC4 :: .dw 0x887F9AB0	//image address
 .org 0x08030CD0 :: .dw 0x087F98B0	//palette
