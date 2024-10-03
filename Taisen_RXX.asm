@@ -32,9 +32,9 @@ cardNameAddress	equ 0x081417B4
 .include "KaizouLoader.asm"
 .include "bbn6.asm"
 
-//change MB limit to 120
-.org 0x0814188A
-	cmp		r0,120
+//remove MB limit for patch cards
+.org 0x0814188C
+	nop
 
 //revert translated title screen to EXE version
 .org 0x08030CC4 :: .dw 0x887F9AB0	//image address
